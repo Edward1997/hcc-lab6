@@ -1,9 +1,9 @@
 # hcc-lab6
 
 ### 1. Preparation
-$```mkdir catkin_ws/src```
+$  ```mkdir catkin_ws/src -p```
 
-$ ```cd catkin_ws/src```
+$  ```cd catkin_ws/src```
 
 git clone this repo (put the localization folder into catkin_ws/src)
 
@@ -17,14 +17,14 @@ download the pcd file here [here]()
 ### 3. Build
 (under catkin_ws)
 
-$ ```catkin_make```
+$  ```catkin_make```
 
-$ ```source devel/setup.bash```
+$  ```source devel/setup.bash```
 
 ### 4. Run
 
-$ ```roscore```
+$  ```roscore```
 
-$ ``` rosrun localization localization_node``` run the node
+$  ``` rosrun localization localization_node``` ( run the node )
 
-$ ```rviz```   to see the result
+$  ```rviz```   to see the result
